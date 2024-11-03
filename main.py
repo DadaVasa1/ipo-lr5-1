@@ -7,11 +7,9 @@ for i in x:
     for j in glas:
         if i == j:
             countglas +=1
-            
-for i in x:
-    for j in soglas:
-        if i == j:
+        else:
             countsoglas +=1
+            
 print(len(x))
 print(countsoglas)
 print (countglas)
