@@ -4,13 +4,13 @@ soglas = ["б", "в", "г", "д", "ж", "з", "й", "к", "л", "м", "р", "н"
 countsoglas = 0
 countglas = 0
 
-for i in x:
-    if i in glas :
+for j in x:
+    if j in glas:
         countglas +=1
 for k in x:
     if k in soglas:
         countsoglas +=1
-        
+
 print(len(x))
 print(countsoglas)
 print (countglas)
